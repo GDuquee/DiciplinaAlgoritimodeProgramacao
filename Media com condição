@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+	
+	float nota1, nota2, media, freq;
+	
+	printf("Informe a nota da prova 1:");
+	scanf("%f", &nota1);
+	printf("Informe a nota da prova 2:");
+	scanf("%f", &nota2);
+	printf("Informe a frequencia do aluno durante o semestre:");
+	printf("(Obs) insira apenas numeros!");
+	scanf("%f", &freq);
+	
+	media = (nota1 + nota2) /2;
+	
+	if(media >= 9.5 && freq >= 75)
+	{
+	printf("DEU MUITA SORTE, VOCE PASSOU!");
+	}
+	else 
+	{
+	printf("COMO DE COSTUME, VOCE FRACASSOU NOVAMENTE");
+    }
+	return 0;
+}
