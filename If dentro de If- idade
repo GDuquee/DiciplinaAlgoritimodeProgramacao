@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main(){
+	
+	int idade;
+	
+	printf("Insira a iade do individuo:");
+	scanf("%d", &idade);
+	
+	if(idade > 0 && idade <= 10)
+	{
+		printf("não saiu da fralda ainda\n");
+	}
+	else if(idade > 10 && idade <= 18)
+	{
+		printf("Fase aborrecente\n");
+	}
+	else if(idade > 18 && idade <= 60)
+	{
+		printf("Ta caducando já\n");
+	}
+	else if(idade > 60 && idade <= 100)
+	{
+		printf("Game Over pra voce\n");
+	}
+	else if(idade > 100 && idade <= 150)
+	{
+		printf("Modo zumbi ativado\n");
+	}
+	else 
+	
+	    printf("Idade invalida, voce nao e deste planeta.\n");
+	}
